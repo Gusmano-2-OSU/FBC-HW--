@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+% Managing Packages
+% Setting Page Geometry
+\usepackage[paperheight=11in, paperwidth = 8.5in, % Setting Paper Height and Width
+margin = 1 in, %Setting Margins
+]{geometry}
+\usepackage{cancel}
+
+% \usepackage[bitstream-charter]{mathdesign}
+% \usepackage[T1]{fontenc}
+
+% Figure Stuff
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{Figures} % Configures graphics Path
+\usepackage{epsfig} % Lets you use the EPS file format, which is better for papers - Note! It doesn't like spaces in file paths! You will get an obvious error.
+
+\usepackage[utf8]{inputenc} % For fuller font set 
+
+% Math Stuff
+\usepackage{amsmath} % For Mathematical expressions
+\usepackage{systeme} % For easy systems of equations
+
+
+\usepackage{tabularx} % For easy tables
+\usepackage{booktabs} % Among other things, helps Excel2LaTeX work
+\usepackage{multirow}
+\usepackage{subcaption} % For figure subcaptions
+
+% Nice Typesetting
+\usepackage{fancyhdr} % Manages the Header and Footer
+\usepackage{indentfirst} % Indents the first paragraph following a section header
+
+% Others
+%\usepackage{glossaries} % For defining variables and acronyms - Better for longer, academic papers 
+
+% Managing Variables
+\def\HW{\#} % What Homework set is this?
+
+
+\title{Homework \HW}
+\author{Paul Gusmano}
+\date{Enter Due Date} % Assignment Due Date
+
+
+\begin{document}
+
+% Managing the header and footer
+\pagestyle{fancy}
+\fancyhead[L]{ME 5372 Spring 2024}
+\fancyhead[C]{Homework \HW}
+\fancyhead[R]{P. Gusmano}
+\setlength{\headheight}{15pt}
+
+%Begin Displayed Text
+\section{Problem}
+\end{document}
